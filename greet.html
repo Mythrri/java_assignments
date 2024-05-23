@@ -1,4 +1,4 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,13 +6,14 @@ DOCTYPE html>
     <title>Document</title>
 </head>
 <body>
-    <button onclick="greet()"> greet </button>
+    <label>username:</label>
+    <input type="text" id="username">
+    <br>
+    <button onclick="`greetuser()">greet user</button>
     <script>
-        function greet()
-        {
-            document .write("welcome to java script.....");
+        function greetuser()
+         {
+            var uname=document.getElementbyid("username").value
         }
-        
-    </script>
 </body>
 </html>
